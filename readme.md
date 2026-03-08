@@ -24,7 +24,7 @@ This is the intrinsic value at expiry and is the terminal condition used by tree
 Under no-arbitrage, option value is the discounted risk-neutral expectation of payoff:
 
 $$
-V_0 = e^{-rT}\,\mathbb{E}^{\mathbb{Q}}[\text{Payoff}(S_T)]
+V_0 = e^{-rT}\mathbb{E}^{\mathbb{Q}}[\text{Payoff}(S_T)]
 $$
 
 where:
